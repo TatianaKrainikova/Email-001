@@ -2,7 +2,7 @@ package utils;
 
 import java.util.Scanner;
 
-public class EmailValidation {
+public class EmailValidator {
 
     public static String validateEmailInput(Scanner scanner) {
         String str = scanner.nextLine().trim();
